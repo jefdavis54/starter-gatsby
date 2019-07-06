@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-starter",
+  "description": "My typescript starter for Gatsby",
+  "version": "0.1.0",
+  "license": "ISC",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "env-cmd -f .env.development gatsby develop",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "tsc-check": "tsc --noEmit",
+    "tsc-init": "tsc --init --declaration --allowSyntheticDefaultImports --target esnext --outDir .type-check"
+  },
+  "dependencies": {
+    "gatsby": "^2.9.4",
+    "gatsby-plugin-typescript": "^2.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.12",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "env-cmd": "^9.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jefdavis/gatsby-starter"
+  }
+}

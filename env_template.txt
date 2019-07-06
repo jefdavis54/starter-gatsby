@@ -1,0 +1,4 @@
+# Only needed for dev, and can be used exactly as shown
+GATSBY_GRAPHQL_IDE=playground
+# Points to Apollo Server
+GRAPHQL_URL=http://localhost:4444
